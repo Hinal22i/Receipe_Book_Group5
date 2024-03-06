@@ -231,14 +231,28 @@
 
         </div>
         <div class="flex items-center justify-center mt-4">
-          
-          <button class="bg-indigo-500 hover:bg-indigo-300 text-white font-bold py-2 px-4 rounded">See more recipes</button>
+          <button id="shareButton" class="bg-indigo-500 hover:bg-indigo-300 text-white font-bold py-2 px-4 rounded">See
+            more
+            recipes</button>
         </div>
       </div>
     </section>
   </main>
 
   <footer></footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function click() {
+
+      const shareButton = document.getElementById('shareButton');
+
+
+      shareButton.addEventListener('click', function click() {
+
+        alert('Oh..great, you want to share de recipe!');
+      });
+    });
+  </script>
 </body>
 
 </html>
