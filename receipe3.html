@@ -70,14 +70,6 @@
             <li>Serve the Nigerian Suya Shawarma wraps as a delicious and spicy meal or snack.</li>
 
            </ol>
-           <div>
-            <!-- <button id="shareButton">Share</button>
-            const shareButton = document.getElementById('shareButton');
-shareButton.addEventListener('click', () => {
-  alert('Content shared!');
-});
-            
-           </div> -->
            <div class="bg-green-900 pb-14 leading-7 px-20 ">
             <h2 class="text-lg leading-7 px-20 pt-5 text-white  pt-5 pb-5"><b>Nutritional Information for Nigerian Suya Shawarma (per serving):</b></h2>
             <div class="flex flex-col md:flex-row md:space-x-5  ">
@@ -98,9 +90,11 @@ shareButton.addEventListener('click', () => {
                         <li class="text-white">Vitamin C: 15% of the DV</li> 
                     </ul>
                 </ul>
-                
-            </div>
-          </div>         
+           
+             </div> 
+            <div class="flex items-center justify-center mt-4">
+              <button id="shareButton" class="px-6 py-2 border rounded-full bg-blue-500 text-white font-bold hover:bg-sky-700" >Share this receipe</button>
+            </div>     
         </section>
 
         
@@ -111,10 +105,10 @@ shareButton.addEventListener('click', () => {
           <div class="flex items-center">
             <form class="flex">
               <input type="text" id="search" name="search" class="px-3 py-2 border rounded-l-md focus:outline-none" placeholder="Search for Receipe ....">
-              <button type="submit" class="px-3 py-2 border rounded-r-md bg-blue-500 text-white">Search</button>
+              <button type="submit"  class="px-3 py-2 border rounded-r-md bg-blue-500 text-white font-bold hover:bg-sky-700">Search</button>
             </form>
           </div>
-          <section class="flex flex-col md:flex-row md:justify-between md:space-x-5       ">
+          <section class="flex flex-col md:flex-row md:justify-between md:space-x-5">
             <ul class="flex flex-col space-y-2 md:space-y-0 md:flex-1">
               <li><a href="#" class="hover:underline">Link 1</a></li>
               <li><a href="#" class="hover:underline">Link 2</a></li>
@@ -138,5 +132,11 @@ shareButton.addEventListener('click', () => {
   
         </div>
       </footer>
+      <script>
+        const shareButton = document.getElementById('shareButton');
+shareButton.addEventListener('click', () => {
+  alert('Thanks for sharing!');
+});
+      </script>
 </body>
 </html>
