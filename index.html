@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Receipe book</title>
     <script>
@@ -10,7 +11,7 @@
           theme: {
             extend: {
               colors: {
-                primary: '',
+                primary: '#A7F3D0',
                 secondary: '',
                 accent: '',
                 text: '',
@@ -28,8 +29,29 @@
       </script>
 </head>
 <body>
-    <header>
-        <nav></nav>
+    <header class="w-full bg-primary">
+        <div class="w-full flex justify-between h-34 ">
+            <div class="logo_left w-40 h-auto ml-28">
+                <img src="./images/Logo_6_n.PNG" alt="SpiceUp" class="rounded-lg m-2">
+            </div>
+            <!-- <div></div> -->
+            <div class="search items-center justify-center mx-16 mt-8">
+              <input type="text" placeholder="Search Receipes" class="m-2 p-3 w-60 rounded-3xl border border-black"/>
+              <button class="bg-black text-white p-3 w-28 rounded-3xl">Search</button>
+              <button class="ml-14 bg-black p-2 px-3.5 rounded-full text-white">U</button>
+            </div>
+        </div>
+        <nav>
+          <div class="navbar bg-black px-2">
+            <ul class="text-white flex justify-center justify-around font-bold text-xl py-6 font-[Roboto] underline underline-offset-2">
+              <li>HOME</li>
+              <li>QUICK & EASY</li>
+              <li>RECEPIES</li>
+              <li>ABOUT US</li>
+              <li>CONTACT US</li>
+            </ul>
+          </div>
+        </nav>
     </header>    
     <main></main>
     <footer></footer>
