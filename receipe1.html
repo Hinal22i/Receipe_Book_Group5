@@ -63,7 +63,9 @@
       <div class="flex flex-col mx-auto justify-center text-4x1">
         <h1 class="text-3xl m-2 pl-4 font-[Montserrat] font-bold underline tracking-wide">Medu Vada</h1>
         <p class="text-lg font-[Montserrat] font-semibold m-2 pl-4 pr-10 tracking-wide">Medu Vada is a South Indian Snack and one of the most loved Mumbai street food. Learn the medu vada recipe with step by step photographs and instructions.</p>
-        <p class="text-lg font-[Montserrat] font-normal m-2 pl-4 pr-10 tracking-wide"><b>Medu vada</b> is my favorite <b>South Indian breakfast recipe.</b> I often make these vada on my weekend breakfast. This is a protein-rich recipe as urad dal (black gram lentil) is the major ingredient. So this is a wholesome recipe and keeps us full for longer. But since this is deep-fried it might not add to weight loss.</p>
+        <p class="text-lg font-[Montserrat] font-normal m-2 pl-4 pr-10 tracking-wide"><b>Medu vada</b> is my favorite <b>South Indian breakfast recipe.</b> I often make these vada on my weekend breakfast. This is a protein-rich recipe as urad dal (black gram lentil) is the major ingredient. So this is a wholesome recipe and keeps us full for longer. But since this is deep-fried it might not add to weight loss. <br /><br />This is one of the common street food in Mumbai. In Mumbai, you will get street-side vendors (anna) selling these delicious South Indian breakfast items near every corporate house or any street corner.
+
+        </p>
 
         <img class="m-auto items-center rounded border-2 border-black w-[60%] my-10" src="./images/Capture1.PNG" alt="meduvada image">
         </div>
@@ -152,7 +154,7 @@
         </ul>
 
         <div class="flex items-end justify-end mt-4">
-          <button id="shareButton" class="flex bg-indigo-500 hover:bg-indigo-300 text-white font-bold py-2 px-4 rounded">See more recipes &nbsp; &nbsp;
+          <button id="shareButton" class="flex bg-indigo-500 hover:bg-indigo-300 text-white font-bold py-2 px-4 rounded">Share &nbsp; &nbsp;
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
               </svg>
@@ -161,5 +163,13 @@
 
     </main>
     <footer></footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function click() {
+        const shareButton = document.getElementById('shareButton');
+        shareButton.addEventListener('click', function click() {
+          alert("Oh..great! you want to share the recipe.");
+        });
+      });
+    </script>
 </body>
 </html>
