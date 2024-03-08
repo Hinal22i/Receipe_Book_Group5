@@ -37,7 +37,7 @@
 
       <!-- Section 1 -->
       <section class="bg-primary rounded-lg p-4 relative">
-        <img src="./img-sections/Capturar.JPG" alt="" class="w-full h-full object-cover">
+        <img src="./img-sections/Capturar.JPG" alt="" class="w-full h-full object-cover rounded-md">
         <div class="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
           <h2 class="text-4xl font-bold">Hyped recipe</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -45,54 +45,60 @@
       </section>
 
       <!-- Section 2 (Aside) -->
-      <section class="p-4">
+      <section class="p-4 sm:flex-col md:flex-col lg:flex-row">
         <aside>
           <h2 class="text-3xl text-center font-bold mb-4">Best recipes</h2>
           <div class="flex flex-col space-y-4">
 
             <!-- Card 1 -->
-            <div class="cards flex">
-              <div class="w-1/2">
-                <img src="./img-sections/feijo.JPG" alt="" class="w-auto h-auto">
+            <a href="#" class="hover:opacity-80 hover:underline hover:font-bold hover:bg-lime-600 hover:bg-rounded-md">
+              <div class="cards flex flex-col sm:flex-row transition duration-300 ease-in-out">
+                <div class="w-auto sm:w-1/2 mb-4 sm:mb-2">
+                  <img src="https://content.skyscnr.com/m/0231e10361f89e78/original/GettyImages-464296723.jpg?resize=1800px:1800px&quality=100" alt="" class="w-auto h-auto rounded-md">
+                </div>
+                <div class="flex items-center justify-center sm:w-1/2 p-4">
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet, consectetur elit.</p>
+                </div>
               </div>
-              <div class="w-1/2 p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet,
-                  consectetur elit.</p>
-              </div>
-            </div>
+            </a>
 
             <!-- Card 2 -->
-            <div class="cards flex">
-              <div class="w-1/2">
-                <img src="./img-sections/rata.JPG" alt="" class="w-auto h-auto">
+            <a href="#" class="hover:opacity-80 hover:underline hover:font-bold hover:bg-lime-600 hover:bg-rounded-md">  
+            <div class="cards flex flex-col sm:flex-row transition duration-300 ease-in-out">
+              <div class="w-auto sm:w-1/2 mb-4 sm:mb-2">
+                <img src="https://content.skyscnr.com/m/7c261aae27e91a3b/original/GettyImages-450159963.jpg?resize=1800px:1800px&quality=100" alt="" class="w-auto h-auto rounded-md">
               </div>
-              <div class="w-1/2 p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet,
+              <div class="flex items-center justify-center sm:w-1/2 p-4">
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet,
                   consectetur elit.</p>
               </div>
             </div>
-
+            </a>
             <!-- Card 3 -->
-            <div class="cards flex">
-              <div class="w-1/2">
-                <img src="./img-sections/rata.JPG" alt="" class="w-auto h-auto">
+            <a href="#" class="hover:opacity-80 hover:underline hover:font-bold hover:bg-lime-600 hover:bg-rounded-md"> 
+            <div class="cards flex flex-col sm:flex-row transition duration-300 ease-in-out">
+              <div class="w-auto sm:w-1/2 mb-4 sm:mb-2">
+                <img src="./img-sections/pizza.JPG" alt="" class="w-auto h-auto rounded-md">
               </div>
-              <div class="w-1/2 p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet,
+              <div class="flex items-center justify-center sm:w-1/2 p-4">
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet,
                   consectetur elit.</p>
               </div>
             </div>
+            </a>
 
             <!-- Card 4 -->
-            <div class="cards flex">
-              <div class="w-1/2">
-                <img src="./img-sections/bigimg.jpeg" alt="" class="w-auto h-auto">
+            <a href="#" class="hover:opacity-80 hover:underline hover:font-bold hover:bg-lime-600 hover:bg-rounded-md"> 
+              <div class="cards flex flex-col sm:flex-row transition duration-300 ease-in-out">
+              <div class="w-auto sm:w-1/2 mb-4 sm:mb-2">
+                <img src="https://res.cloudinary.com/tienda-com/image/upload/f_auto/q_auto/c_fill,w_752/dpr_2.0/v1/recipes/mixed-seafood-paella" alt="" class="w-auto h-auto rounded-md">
               </div>
-              <div class="w-1/2 p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet,
+              <div class="flex items-center justify-center sm:w-1/2 p-4">
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet,
                   consectetur elit.</p>
               </div>
             </div>
+            </a>
           </div>
         </aside>
       </section>
@@ -106,7 +112,7 @@
 
           <!-- Recipe 1 -->
           <article class="p-4">
-            <img src="/img-sections/bigimg.jpeg" alt="curso design" class="w-full h-30 object-cover mb-4">
+            <img src="/img-sections/hide.JPG" alt="curso design" class="w-full h-auto rounded-md">
             <div class="mt-2">
               <h3 class="text-xl font-bold">Design para web</h3>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
@@ -147,7 +153,7 @@
 
           <!-- Recipe 2 -->
           <article class="p-4">
-            <img src="./img-sections/rata.JPG" alt="" class="w-full h-30 object-cover mb-4">
+            <img src="./img-sections/bigimg.jpeg" alt="" class="w-full h-auto rounded-md">
             <div class="mt-2">
               <h3 class="text-xl font-bold">Design para web</h3>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
@@ -190,7 +196,7 @@
 
           <!-- Recipe 3 -->
           <article class="p-4">
-            <img src="./img-sections/feijo.JPG" alt="" class="w-full h-40 object-cover mb-4">
+            <img src="https://thenaturalfestival.com/wp-content/uploads/2022/03/1647732727_maxresdefault.jpg" alt="" class="w-full h-auto rounded-md">
             <div class="mt-2">
               <h3 class="text-xl font-bold">Design para web</h3>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
@@ -249,7 +255,7 @@
 
       shareButton.addEventListener('click', function click() {
 
-        alert('Oh..great, you want to share de recipe!');
+        alert(`Oh..oops, we're still working on it!`);
       });
     });
   </script>
